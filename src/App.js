@@ -2,9 +2,9 @@
 import React, { useState } from 'react';
 import LoginForm from './LoginForm';
 import SplashScreen from './SplashScreen';
-import UserManagement from './components/UserManagement';
+import UserManagement from './Component/UserManagement';
 // Предполагается, что axios уже импортирован
-// import axios from 'axios';
+import axios from 'axios';
 
 import './App.css';
 
